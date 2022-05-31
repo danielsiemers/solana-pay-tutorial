@@ -2,7 +2,7 @@ import { createTransferCheckedInstruction, getAssociatedTokenAddress, getMint } 
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base"
 import { clusterApiUrl, Connection, PublicKey, Transaction } from "@solana/web3.js"
 import { NextApiRequest, NextApiResponse } from "next"
-import { shopAddress, usdcAddress } from "../../lib/adresses"
+import { shopAddress, usdcAddress } from "../../lib/addresses"
 import calculatePrice from "../../lib/calculatePrice"
 
 export type MakeTransactionInputData = {
